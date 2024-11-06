@@ -1,0 +1,7 @@
+1.
+SELECT `id`, `dataWyjazdu`, `cel`, `cena` FROM `wycieczki` WHERE `dostepna` = 1;
+2.
+SELECT `nazwaPliku`, `podpis` FROM `zdjecia` ORDER BY podpis DESC;
+
+4.ALTER TABLE `wycieczki` ADD `liczbadni` INT UNSIGNED NOT NULL AFTER `dataWyjazdu`;
+
